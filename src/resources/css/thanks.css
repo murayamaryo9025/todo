@@ -1,34 +1,27 @@
-<!DOCTYPE html>
-<html lang="ja">
+.header {
+    background: #000;
+}
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FashionblyLate</title>
-  <link rel="stylesheet" href="{{ asset('css/sanitize.css') }}" />
-  <link rel="stylesheet" href="{{ asset('css/thanks.css') }}" />
-</head>
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+}
 
-<body>
-  <header class="header">
-    <div class="header__inner">
-      <a class="header__logo" href="/">
-        Contact
-      </a>
-    </div>
-  </header>
+.header__logo {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
 
-  <main>
-    <div class="thanks__content">
-      <div class="thanks__heading">
-        <h2>お問い合わせありがとうございました</h2>
-      </div>
-    </div>
-  </main>
-  <form action="" method="post">
-    <input type="submit" name="" value="HOMEへ"></input>
-</form>
-</body>
+.thanks__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
 
-</html>
+.thanks__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
